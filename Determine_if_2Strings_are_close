@@ -1,3 +1,4 @@
+import numpy as np
 class Solution(object):
     def closeStrings(self, word1, word2):
         """
@@ -5,17 +6,15 @@ class Solution(object):
         :type word2: str
         :rtype: bool
         """
+        word1 = list(word1)
+        word2 = list(word2)
         if len(word1) != len(word2):
             return False
         if set(word1) != set(word2):
             return False
-        word1dictionary = dict()
-        word2dictionary = dict()
-        for char in word1:
-            word1dictionary[char] = word1.count(char)
-        for char in word2:
-            word2dictionary[char] = word2.count(char)
-        if sorted(word1dictionary.values()) != sorted(word2dictionary.values()):
+        uniq_char1, counts_char1 = np.unique(word1, return_counts=True)
+        uniq_char2, counts_char2 = np.unique(word2, return_counts=True)
+        if sorted(counts_char1) != sorted(counts_char2):
             return False
         else:
             return True
