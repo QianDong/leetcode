@@ -22,5 +22,5 @@ Output: 505379714
 The decimal value of that is 118505380540.
 After modulo 109 + 7, the result is 505379714.
  
-#### Constraints:
+#### Constraints: 
 1 <= n <= 105
