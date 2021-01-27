@@ -1,6 +1,6 @@
-#### https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/582/week-4-january-22nd-january-28th/3613/  ####
+https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/582/week-4-january-22nd-january-28th/3613/  
 
-Challenge Notice
+#### Challenge Notice ####
 This question has passed the daily deadline.
 
 You may still solve the question, but it will not count towards the challenge, unless you use a valid Time Travel Ticket.
