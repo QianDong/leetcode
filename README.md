@@ -1,4 +1,4 @@
-# leetcode
+# Algorithm Coding Exercises
 my programs for leetcode
 
 There are two branches so far: Easy and Daily Challenge.
