@@ -1,8 +1,6 @@
+### January Daily Challenge 2021-01-22
+
 https://leetcode.com/explore/challenge/card/january-leetcoding-challenge-2021/582/week-4-january-22nd-january-28th/3613/  
-
-
-#### January Daily Challenge 2021-01-22
-
 
 
 ### Determine if Two Strings Are Close 
