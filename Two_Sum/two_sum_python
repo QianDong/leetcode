@@ -1,0 +1,20 @@
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        listLen = len(nums)
+        listIndex = list(range(0,listLen))
+        for idx in listIndex:
+            diff = target - nums[idx]
+            if (idx < listLen-1):
+                for rest_idx in listIndex[idx+1:]:
+                    if (nums[rest_idx] == diff):
+                        return [idx, rest_idx]
+
+                
+mySolution = Solution()
+result = mySolution.twoSum([3,2,4],6)
+print(result)
